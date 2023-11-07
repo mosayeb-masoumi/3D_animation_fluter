@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:o3d/o3d.dart';
 import 'package:ttttttest/inverted_circle_clipper.dart';
-import 'package:ttttttest/main.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -11,6 +11,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  // https://www.youtube.com/watch?v=-W45PQ__SAk
+
   O3DController o3dController = O3DController();
   PageController mainPageController = PageController();
   PageController textsPageController = PageController();
